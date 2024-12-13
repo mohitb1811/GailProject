@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+
+
+    background-color:  white;
+}
+.container{
+    height: 100rem;
+    width: 80%;
+    background-color:  rgb(86, 153, 231);
+    margin-left: 180px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+h1{
+    margin-left: 575px;
+    font-size: 50px;
+    padding-top: 50px;
+    
+    color: white;
+}
+.container img{
+    padding: 10px;
+    height: 30rem;
+    width: 60rem;
+    margin-left: 17rem;
+    border: 2px solid black;
+    margin-top: 100px;
+}
+.data{
+    height: 52rem;
+    width: 80rem;
+    padding: 20px;
+   
+    text-align: center;
+    font-size: 30px;
+    margin-left: 100px;
+
+}
+
+.header{
+    display: flex;
+    background-color:  rgb(86, 153, 231);
+    color:white ;
+    opacity:0.9 ;
+    height: 10rem;  
+    
+ }
+ 
+ img{
+    height: 120px;
+    margin-top: 20px;
+    padding: 10px;
+ }
+ ul{
+    display: flex;
+    margin-top: 20px;
+  
+ 
+ }
+ li{
+    display: flex;
+    padding: 20px;
+ }
+ 
+ ul li a{
+    
+    padding: 3px 6px;
+    text-decoration: none ;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;font-size: 30px;
+    position: relative;
+    margin-top: 20px;
+    
+ }
+ ul li a:hover::after{
+    width: 100%;
+    color: black;
+ }
+ ul li a::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background-color:yellow;
+  
+    transition: width 0.3s;
+ }
+ .right{
+    
+   margin-left: 20rem;
+ }
